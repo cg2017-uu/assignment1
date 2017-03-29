@@ -7,16 +7,16 @@ Build instructions for Linux
 
 Dependencies
 ------------
-gcc/g++, CMake 2.6 (or higher), make, OpenGL
+gcc/g++, CMake 2.8 (or higher), make, OpenGL
 
 These dependencies can be installed via the package manager of your
 Linux distribution.
 
-CMake might complain if two additional libraries, Xi and Xmu, are not
-installed. On, e.g., Ubuntu 14.04, you can install these libraries
-with the command
+CMake might complain if the additional libraries Xi, Xmu, Xrandr, and Xcursor
+are not installed. On, e.g., Ubuntu 14.04, you can install these libraries with
+the command
 
-  sudo apt-get install libxmu-dev libxi-dev
+  sudo apt-get install libxmu-dev libxi-dev libxrandr-dev libxcursor-dev
 
 GLEW and GLFW will be built on-the-fly when you build the assignment
 program.
@@ -58,7 +58,7 @@ Build instructions for Windows
 
 Dependencies
 ------------
-Visual Studio 20XX, CMake GUI 2.6 (or higher)
+Visual Studio 20XX, CMake GUI 2.8 (or higher)
 
 Environment variables
 ---------------------
